@@ -3,7 +3,7 @@ http://mixed-spade.surge.sh/
 
 A simple Frogger like application using Hyperapp.js.
 
-I published a detailed post about it here* [here](https://medium.com/hyperapp/frogger-in-hyperapp-90c0a7cd23a4) 
+I published a detailed post about it here [Frogger in Hyperapp](https://medium.com/hyperapp/frogger-in-hyperapp-90c0a7cd23a4) 
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*0buRS6911OtLu-RdXKcZug.png)
 

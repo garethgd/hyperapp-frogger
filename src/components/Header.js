@@ -1,5 +1,5 @@
-import { h } from 'hyperapp';
-import { Link } from '@hyperapp/router';
+import { h } from 'hyperapp'
+import { Link } from '@hyperapp/router'
 
 export default ({ score, lives }) => (
   <div key="header" className="score">
@@ -15,4 +15,4 @@ export default ({ score, lives }) => (
       <h1>Lives</h1> <span>{lives} </span>
     </div>
   </div>
-);
+)

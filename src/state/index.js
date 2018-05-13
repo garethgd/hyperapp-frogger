@@ -1,4 +1,4 @@
-const GRIDSIZE = 9;
+const GRIDSIZE = 9
 
 export default {
   score: {
@@ -40,4 +40,4 @@ export default {
     }),
     // ...
   ],
-};
+}

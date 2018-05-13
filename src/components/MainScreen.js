@@ -1,9 +1,9 @@
-import { h } from 'hyperapp';
-import { Route } from '@hyperapp/router';
-import Header from './Header';
-import Menu from './Menu';
-import Game from './Game';
-import Lose from './LoseScreen';
+import { h } from 'hyperapp'
+import { Route } from '@hyperapp/router'
+import Header from './Header'
+import Menu from './Menu'
+import Game from './Game'
+import Lose from './LoseScreen'
 
 /**
  * first object in the store is 'state' (an object - {})
@@ -25,7 +25,13 @@ export default (
         path="/game"
         render={() =>
           gameOver ? (
-            <Lose key="lose" path="/lose" startGame={startGame} score={score} resetGame={resetGame} />
+            <Lose
+              key="lose"
+              path="/lose"
+              startGame={startGame}
+              score={score}
+              resetGame={resetGame}
+            />
           ) : (
             <Game
               frogPosition={frogPosition}
@@ -38,4 +44,4 @@ export default (
       />
     </div>
   </div>
-);
+)

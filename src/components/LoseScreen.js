@@ -1,5 +1,5 @@
-import { h } from 'hyperapp';
-import { Link } from '@hyperapp/router';
+import { h } from 'hyperapp'
+import { Link } from '@hyperapp/router'
 
 export default props => (
   <div key="lose" className="lose">
@@ -16,8 +16,10 @@ export default props => (
         </button>
       </Link>
       <Link to={'/'}>
-        <button onclick={() => props.resetGame()} class="ghost-btn lose">No</button>
+        <button onclick={() => props.resetGame()} class="ghost-btn lose">
+          No
+        </button>
       </Link>
     </div>
   </div>
-);
+)

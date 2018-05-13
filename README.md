@@ -3,6 +3,8 @@ http://mixed-spade.surge.sh/
 
 A simple Frogger like application using Hyperapp.js.
 
+I published a detailed post about it here* [here](https://medium.com/hyperapp/frogger-in-hyperapp-90c0a7cd23a4) 
+
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*0buRS6911OtLu-RdXKcZug.png)
 
  The app demonstrates how to track data that is likely to change by storing it in Hyperapp.js's state. This includes the positions of enemies and avatars on the x and y axis. Actions are then used to handle logic and update the state accordingly. The logic in our actions will also update the state for events like collision detection between the positions of the sprites. 

@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    ["transform-react-jsx", { "pragma": "h" }],
+    ["transform-es2015-destructuring", "transform-object-rest-spread"],
+    ["transform-object-rest-spread"]
+  ],
+  "presets": [
+    ["env", { modules: false }]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env"]
+      ],
+    }
+  }
+}
